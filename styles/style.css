@@ -47,7 +47,7 @@ nav .navegacion a {
   color: white;
   text-decoration: none;
   font-family: "Open sans", sans-serif;
-  color: #C9C9C9;
+  color: #c9c9c9;
 }
 
 /* Sección principal (Hero) */
@@ -89,9 +89,9 @@ nav .navegacion a {
   font-family: "Raleway", sans-serif;
   font-weight: 400;
   padding-right: 30px;
-  font-size: 1.1rem;
+  font-size: 1rem;
   max-width: 550px;
-  color: #CCCCCD;
+  color: #B7B7B7;
 }
 
 /* Margen para el botón de descarga */
@@ -134,7 +134,7 @@ nav .navegacion a {
 
 /* Color especial para el texto destacado en el encabezado del formulario */
 .Hero .Righ .Formulario .EncabezadoForm span {
-  color: #FF9B51;
+  color: #ff9b51;
 }
 
 /* Contenedor general del form */
@@ -159,8 +159,8 @@ nav .navegacion a {
 .Hero .Righ form .inputs input {
   width: 100%;
   border: none;
-  border-bottom: 1px solid #d6d6d6; 
-  outline: none; 
+  border-bottom: 1px solid #d6d6d6;
+  outline: none;
 }
 
 /* Cambio de color de la línea al hacer foco */
@@ -183,14 +183,14 @@ nav .navegacion a {
   display: flex;
   align-items: center;
   justify-content: center;
-  background: #ff9c5100; 
+  background: #ff9c5100;
 }
 
 /* Botón de envío */
 .Hero .Righ form .buttonForm input {
   width: 100%;
   border: none;
-  background: #FF9B51;
+  background: #ff9b51;
   color: white;
   padding: 20px 0px;
   font-size: 1rem;
@@ -204,8 +204,8 @@ nav .navegacion a {
   display: flex;
   justify-content: space-between;
   padding: 20px 10%;
-  background: #FFFFFF;
-  border-bottom: #B7B7B7 2px solid ;
+  background: #ffffff;
+  border-bottom: #b7b7b7 2px solid;
 }
 
 .socialMedia .text {
@@ -214,13 +214,13 @@ nav .navegacion a {
 }
 
 .socialMedia .text .parrafo {
-  color: #A9AAAC;
+  color: #B7B7B7;
 }
 
-.socialMedia .iconsSocial  {
+.socialMedia .iconsSocial {
   display: flex;
   padding: 0px 0%;
-  gap: 80px;
+  gap: 30px;
   height: 7rem;
   align-items: center;
   justify-content: center;
@@ -228,8 +228,8 @@ nav .navegacion a {
 
 .tabs {
   display: flex;
-  padding: 100px 10%;
-  background: #F5F5F5;
+  padding: 10%;
+  background: #f5f5f5;
   justify-content: space-between;
   gap: 5%;
   font-family: "Open Sans", sans-serif;
@@ -241,15 +241,15 @@ nav .navegacion a {
 }
 
 .tab {
-    border: none;
-    padding: 45px;
-    font-weight: bold;
-    color: white;
-    background: #333333;
-    cursor: pointer;
-    text-align: center;
-    margin-top: 2px;
-    font-family: "Open Sans", sans-serif;
+  border: none;
+  padding: 45px;
+  font-weight: bold;
+  color: white;
+  background: #333333;
+  cursor: pointer;
+  text-align: center;
+  margin-top: 2px;
+  font-family: "Open Sans", sans-serif;
 }
 
 .tab:first-child {
@@ -263,7 +263,7 @@ nav .navegacion a {
 }
 
 .tab.active {
-  background: #FF8C3A; /* Naranja */
+  background: #ff8c3a; /* Naranja */
 }
 
 .tab-content {
@@ -272,15 +272,16 @@ nav .navegacion a {
 
 .tab-content h2 {
   margin-bottom: 20px;
+  color: #333333;
 }
 
 .tab-content p {
-  color: #777;
+  color: #B7B7B7;
   margin-bottom: 20px;
 }
 
 .download-btn {
-  background: #FF8C3A;
+  background: #ff8c3a;
   color: white;
   border: none;
   padding: 15px 25px;
@@ -291,4 +292,164 @@ nav .navegacion a {
 
 .tab-image {
   max-width: 600px;
+}
+
+.sub-list-section {
+  display: flex;
+  padding: 10%;
+  justify-content: space-between;
+  font-family: "Open Sans", sans-serif;
+  gap: 40px;
+  align-items: center;
+}
+
+.sub-list-section .imagen-principal {
+  justify-content: right;
+  align-items: center;
+}
+
+.sub-list-section .imagen-principal img {
+  width: 500px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.5);
+  border-radius: 8px;
+}
+.sub-list-section .text {
+  max-width: 500px;
+}
+
+.sub-list-section .text h3 {
+  font-size: 1.5rem;
+  color: #333333;
+}
+
+.sub-list-section .text p {
+  color: #B7B7B7;
+}
+
+.sub-list-section .text span {
+  display: block;
+  width: 70px;
+  height: 2px;
+  background: #ff8c3a;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.sub-list-section .text .subParrafo {
+  display: flex;
+  flex-direction: column;
+  margin-top: 40px;
+  gap: 30px;
+}
+
+.sub-list-section .text .subParrafo .parrafo {
+  display: flex;
+  gap: 20px;
+  align-self: center;
+}
+
+.sub-list-section .text .subParrafo .parrafo .imagen {
+  align-self: center;
+}
+
+.sub-list-section .text .subParrafo .parrafo .imagen img {
+  width: autopx;
+  height: 40px;
+}
+
+.standard-Picture-Section {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 40px;
+  padding: 10%;
+  font-family: "Open Sans", sans-serif;
+  background-color: #f5f5f5;
+}
+
+.standard-Picture-Section .text {
+  width: 515px;
+}
+
+.standard-Picture-Section .text h3 {
+  font-weight: 600;
+  font-size: 1.5rem;
+  margin-bottom: 15px;
+  color: #333333;
+}
+
+.standard-Picture-Section .text span {
+  display: block;
+  width: 70px;
+  height: 2px;
+  background: #ff8c3a;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.standard-Picture-Section .text p {
+  font-family: "Open Sans", sans-serif;
+  color: #B7B7B7;
+  margin-bottom: 15px;
+  font-size: 1rem;
+}
+
+.standard-Picture-Section .imagen img {
+  width: 500px;
+  border-radius: 6px;
+  box-shadow: 0 15px 40px rgba(0, 0, 0, 0.2);
+}
+
+.features-section {
+  padding: 10%;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+
+.features-section .features-header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.features-section .features-header h2 {
+  font-family: "Raleway", sans-serif;
+  font-weight: 400;
+  font-size: 2.5rem;
+}
+
+.features-section .features-header span {
+  display: block;
+  width: 70px;
+  height: 2px;
+  background: #ff8c3a;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.features-section .features-header p {
+  font-family: "Open Sans", sans-serif;
+  color: #B7B7B7;
+}
+
+.features-section .features-list {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.features-section .features-list .feature-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: "Open Sans", sans-serif;
+  max-width: 412px;
+  text-align: center;
+  gap: 20px;
+}
+
+.features-section .features-list .feature-item p {
+  color: #B7B7B7;
 }
