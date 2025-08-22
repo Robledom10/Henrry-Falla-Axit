@@ -56,7 +56,7 @@ nav .navegacion a {
   position: relative;
   display: flex;
   padding: 4% 10%;
-  height: 750px;
+  height: auto;
   justify-content: space-between;
 }
 
@@ -454,7 +454,6 @@ nav .navegacion a {
 .pricing-section {
   display: flex;
   flex-direction: column;
-  align-items: center;
   background-color: #f5f5f5;
   padding: 10%;
   gap: 40px;
@@ -463,8 +462,8 @@ nav .navegacion a {
 .pricing-section .pricing-header {
   display: flex;
   flex-direction: column;
-  align-items: center;
   font-family: "Raleway", sans-serif;
+  align-items: center;
 }
 
 .pricing-section .pricing-header h2 {
@@ -479,6 +478,7 @@ nav .navegacion a {
 .pricing-section .pricing-cards {
   display: flex;
   flex-direction: row;
+  justify-content: center;
   gap: 30px;
   font-family: "Open Sans", sans-serif;
   align-items: flex-end;
@@ -814,4 +814,24 @@ nav .navegacion a {
 
 .footer p {
   font-size: 14px;
+}
+
+@media (max-width: 1279px) {
+  .Hero .Left .text h1 {
+    font-size: 1.5rem;
+  }
+
+  .Hero .Left .text p {
+    font-size: 0.8rem;
+  }
+
+  .tabs {
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .tab-image {
+    margin-top: 20px;
+  }
 }
